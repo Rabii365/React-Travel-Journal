@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 550px;
+  height: auto;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  box-shadow: 0px 2px 7.46px 0px rgba(0, 0, 0, 0.1);
+  background-color: #f55a5a;
+  align-items: center;
+  gap: 7px;
+}
+
+nav p {
+  color: #ffffff;
+}
+
+nav img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(291deg)
+    brightness(107%) contrast(101%);
+}
+
+.card-container {
+  display: flex;
+  padding: 25px;
+  gap: 15px;
+  align-items: center;
+}
+
+.card-container img {
+  border-radius: 9px;
+}
+
+.top-desc-sect {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-bottom: 2px;
+}
+
+.top-desc-sect img {
+  width: 7px;
+}
+
+.top-desc-sect p {
+  font-size: 10px;
+  letter-spacing: 0.17em;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.top-desc-sect a {
+  font-weight: 700;
+  color: #918e9b;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.mount {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  padding-bottom: 10px;
+}
+
+.date {
+  color: #2b283a;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  padding-bottom: 10px;
+}
+
+.about {
+  color: #2b283a;
+  font-size: 10px;
+  line-height: 15px;
+}
